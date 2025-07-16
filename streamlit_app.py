@@ -54,8 +54,8 @@ if st.button("Find Latest Jobs"):
         st.warning("No jobs found right now.")
 
 st.subheader("📬 Email Results")
-sender_email = st.text_input("Your Gmail Address")
-app_password = st.text_input("App Password", type="password")
+sender_email = st.text_input("sahithibhisetti4@gmail.com")
+app_password = st.text_input("App Password", type="Sahi234@vitap2004")
 
 if st.button("Send Email"):
     if sender_email and app_password:
